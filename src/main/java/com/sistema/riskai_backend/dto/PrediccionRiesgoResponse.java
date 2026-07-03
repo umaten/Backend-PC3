@@ -8,5 +8,6 @@ import java.util.List;
 public class PrediccionRiesgoResponse {
     private String prediccion;
     private Double confianza;
+    private String caso;
     private List<String> recomendaciones;
 }
